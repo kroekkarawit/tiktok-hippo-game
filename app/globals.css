@@ -1,0 +1,70 @@
+body{
+  background-color: black;
+}
+
+.color-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+
+
+.blue-section {
+  height: 50%;
+  background-color: blue;
+}
+
+.red-section {
+  height: 50%;
+  background-color: red;
+}
+
+.color-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.blue-section, .red-section {
+  transition: height 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.blue-section {
+  background-color: blue;
+}
+
+.red-section {
+  background-color: red;
+}
+
+.growing-line {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  content: '';
+  bottom: 50%; /* Position at the bottom of the blue section */
+  transform: translateY(50%);
+  z-index: 99; /* Place it above the sections */
+  transition: width 0.5s ease-in-out;
+}
+
+@keyframes zoomInFadeOut {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2);
+  }
+}
