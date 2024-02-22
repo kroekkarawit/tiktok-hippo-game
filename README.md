@@ -2,7 +2,8 @@
   Tiktok Live Interactive game 
 </h1>
 
-![S__150601730](https://github.com/kroekkarawit/tiktok-hippo-game/assets/127166944/91070da4-2bbd-4f16-bb5b-73eb3c7a7046)
+
+![gt1](https://github.com/kroekkarawit/tiktok-hippo-game/assets/127166944/3537ff76-b404-48d8-9510-e7a900a11e71)
 
 
 <p>
@@ -10,7 +11,7 @@
 </p>
 
 <p>
-  "เครื่องมือสร้าง QR Code แบบของคุณเอง รองรับโค้ดแบบข้อความ อีเมล์ เบอร์โทร รหัสไวไฟ ข้อมูลติดต่อและอื่นๆ”
+  "TikTok Live Interactive Games เพิ่มการมีส่วนร่วมของผู้ชมด้วยการสตรีมสดบน TikTok โดยใช้เกมแบบโต้ตอบ และเริ่มสร้างรายได้จากผู้ชม”
 </p>
 
 
@@ -57,18 +58,18 @@ This project is licensed under the [MIT License](LICENSE).
 # Acknowledgements
 We would like to acknowledge the following third-party libraries, services, and resources:
 
-- [Svelte](https://svelte.dev/): A radical new approach to building user interfaces.
-- [Svelte Kit](https://kit.svelte.dev/): A framework for building web applications with Svelte.
-- [Package colors](https://pkg.go.dev/gopkg.in/go-playground/colors.v1#section-readme): Library for Manage color format in go.
-- [Go fiber](https://docs.gofiber.io/): A React component for playing a video.
-- [go-qrcode](https://github.com/skip2/go-qrcode): A library for generating QR codes in Go..
+- [React](https://reactjs.org/): JavaScript library for building user interfaces.
+- [Next.js](https://nextjs.org/): React framework for building server-side rendered and statically generated applications.
+- [Javascript canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API): A feature of HTML5 that allows for dynamic, scriptable rendering of 2D shapes and bitmap images.
+- [Node.js](https://nodejs.org/en): A JavaScript runtime built on Chrome's V8 JavaScript engine.
+- [MongoDB](https://www.mongodb.com/): A general purpose, document-based, distributed database built for modern application developers and for the cloud era.
 
 # Future Plans
 In the future, we plan to add the following updates and features to platform:
 
 - Enhanced QR Code Types: We aim to expand the range of supported QR code types, including more complex data formats such as vCards, calendar events, and Bitcoin payments.
-- Customizable QR Code Design: Users will have the ability to customize the appearance of their QR codes, including background and foreground colors, logo insertion, and additional styling options.
-- Dynamic QR Codes: Introduce dynamic QR codes that can be updated with new information without changing the QR code image. This feature will be useful for tracking and analytics purposes.
-- Improved Performance: Enhance the performance of the QR code generation process to make it faster and more responsive, especially when generating large numbers of QR codes.
+- Enhanced Live Connector for seamless streaming.
+- Advanced Live Event Handler to manage viewer interactions effectively.
+- Real-time gameplay for engaging audience participation.
 
 Feel free to contribute ideas or suggestions for future improvements!
