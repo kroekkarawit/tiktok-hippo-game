@@ -67,8 +67,7 @@ We would like to acknowledge the following third-party libraries, services, and 
 # Future Plans
 In the future, we plan to add the following updates and features to platform:
 
-- Enhanced QR Code Types: We aim to expand the range of supported QR code types, including more complex data formats such as vCards, calendar events, and Bitcoin payments.
-- Enhanced Live Connector for seamless streaming.
+ - Enhanced Live Connector for seamless streaming.
 - Advanced Live Event Handler to manage viewer interactions effectively.
 - Real-time gameplay for engaging audience participation.
 
